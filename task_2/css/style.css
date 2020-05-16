@@ -1,0 +1,585 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2cc9b;
+    font-family: 'averia_serifregular';
+    color: #554535;
+    overflow-x: hidden;
+}
+
+.main-wrapper {
+    max-width: 1360px;
+    margin: auto;
+}
+
+.header__title {
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 3px solid #544434;
+    border-bottom: 3px solid #544434;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circulation {
+    padding-top: 10px;
+    width: 140px;
+    text-align: center;
+}
+
+.circulation__title {
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+.circulation__weekdays {
+    font-size: 15px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.circulation__publisher,
+.circulation__date {
+    font-size: 11px;
+}
+
+.header__topic {
+    font-family: 'dk_courantregular';
+    font-size: 100px;
+}
+
+.page {
+    width: 150px;
+    text-align: center;
+}
+
+.page__information {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.header__subtitle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #544434;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.news__column--one {
+    width: 430px;
+    margin-right: 100px;
+}
+
+.main {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.editorial__title {
+    text-transform: uppercase;
+    color: #554535;
+    font-size: 52px;
+    font-family: 'hand_shop_typography_c30_deRg';
+}
+
+.news-car {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #544434;
+    border-radius: 3px;
+}
+
+.car__wrapper {
+    border: 5px solid #544434;
+    border-radius: 4px;
+    padding: 3px;
+    width: 217px;
+    float: left;
+    margin-right: 15px;
+}
+
+.car-img {
+    border: 2px solid #544434;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.news-car__title {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.news-car__information {
+    margin-top: 8px;
+    text-align-last: center;
+}
+
+.stars-tour {
+    margin-top: 4px;
+    border-top: 3px solid #544434;
+}
+
+.stars-tour__title {
+    font-size: 35px;
+    color: #554535;
+    padding-top: 15px;
+    font-family: 'hand_shop_typography_c30_deRg';
+    text-transform: uppercase;
+}
+
+.stars-tour__subtitle {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.stars-tour__topic {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.camera__wrapper {
+    float: right;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.stars-tour__information {
+    margin-top: 15px;
+    text-align-last: center;
+}
+
+.stars-tour__information:last-child {
+    margin-top: 20px;
+}
+
+.wedding-news {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wedding-news__information{
+    margin-left: 25px;
+}
+
+.wedding-news__title {
+    font-size: 40px;
+    border-top: 3px solid #544434;
+    border-bottom: 3px solid #544434;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.wedding-news__description {
+    padding-top: 15px;
+}
+
+.news__wrapper {
+    display: flex;
+}
+
+.news__column--two {
+    width: 300px;
+    margin-right: 100px;
+}
+
+.meeting-news__title {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.meeting-news__read {
+    font-size: 30px;
+    text-transform: uppercase;
+    border-top: 3px solid #544434;
+    border-bottom: 3px solid #544434;
+    text-align: center;
+    font-family: 'averia_seriflight';
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.meeting-news__description {
+    margin-top: 10px;
+    text-align-last: center;
+}
+
+.important-news {
+    margin-top: 10px;
+}
+
+.important-news__title {
+    height: 130px;
+    background-color: #544434;
+    border-radius: 5px;
+    padding-top: 25px;
+}
+
+.important-news__topic {
+    color:#e2cc9b;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.important-news__description {
+    margin-top: 15px;
+    text-align-last: center;
+}
+
+.ad-telephone {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ad-telephone__title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'hand_shop_typography_c30_deRg';
+}
+
+.ad-telephone__number {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.ad-telephone__time-work{
+    font-weight: bold;
+}
+
+.phone-img {
+    margin-top: 10px;
+    align-items: center;
+}
+
+.news__column--three {
+    width: 300px;
+}
+
+.your-news {
+    border-bottom: 5px solid #544434;
+    border-radius: 4px;
+    padding-bottom: 15px;
+}
+
+.your-news__title {
+    font-size: 52px;
+    text-transform: uppercase;
+    font-family: 'hand_shop_typography_c30_deRg';
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.your-news__topic {
+    font-size: 30px;
+    text-transform: uppercase;
+    border-top: 3px solid #544434;
+    border-bottom: 3px solid #544434;
+    text-align: center;
+    font-family: 'averia_seriflight';
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.your-news__description {
+    margin-top: 10px;
+    text-align-last: center;
+}
+
+.old-paper__title {
+    font-size: 52px;
+    text-transform: uppercase;
+    font-family: 'hand_shop_typography_c30_deRg';
+    border-top: 3px solid #544434;
+    margin-top: 5px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.old-paper__subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.old-paper__topic {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.old-paper__subtitle img {
+    margin-top: 5px;
+}
+
+.old-paper__description {
+    margin-top: 10px;
+    text-align-last: center;
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 33; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+  
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+  
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 650px) {
+    .header__title {
+        margin-top: 5px;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .circulation {
+        padding-top: 10px;
+        margin: auto;
+    }
+
+    .circulation__title {
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+
+    .header__topic {
+        padding-top: 15px;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .page {
+        margin: auto;
+    }
+    
+    .page__information {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    .header__subtitle {
+        flex-direction: column;
+        font-size: 17px;
+        align-items: center;
+        text-align-last: center;
+    }
+    
+    .subtitle__topic {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .news__column--one {
+        width: 300px;
+        margin-right: 0;
+    }
+
+    .main {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .editorial__title {
+        text-align: center;
+    }
+
+    .car__wrapper {
+        float: none;
+        margin: auto;
+    }
+
+    .news-car__title {
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .stars-tour__title {
+        text-align: center;
+    }
+
+    .stars-tour__topic {
+        font-size: 17px;
+    }
+    
+    .camera__wrapper {
+        float: none;
+        text-align: center;
+    }
+
+    .wedding-news {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wedding-news__title {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .news__wrapper {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .news__column--two {
+        margin: auto;
+    }
+
+    .meeting-news__title {
+        margin-top: 10px;
+    }
+    
+    .ad-telephone {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1000px) {
+    .header__title {
+        margin-top: 10px;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .circulation {
+        padding-top: 10px;
+        margin: auto;
+    }
+
+    .header__topic {
+        padding-top: 15px;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .page {
+        margin: auto;
+    }
+    
+    .page__information {
+        padding-top: 10px;
+    }
+
+    .header__subtitle {
+        flex-direction: column;
+        font-size: 20px;
+        align-items: center;
+        text-align-last: center;
+    }
+    
+    .subtitle__topic {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .main {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news__column--one {
+        margin: auto;
+    }
+
+    .news__wrapper {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .news__column--two {
+        padding-right: 20px;
+        margin-right: 0;
+        border-right: 2px solid #544434;
+    }
+
+    .news__column--three {
+        padding-left: 20px;
+    }
+
+    .your-news__title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .old-paper__title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .old-paper__topic {
+        font-size: 27px;
+    }
+
+    .ad-telephone__title {
+        font-size: 35px;
+        text-align: center;
+    }
+}
